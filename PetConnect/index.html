@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PetConnect | Tecnología para el Bienestar Animal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <div class="brand">
+        <img src="images/banner.svg" alt="PetConnect banner" style="height:48px;border-radius:8px"/>
+        <h1>PetConnect</h1>
+      </div>
+      <nav class="menu">
+        <a href="#inicio" data-lang="es">Inicio</a>
+        <a href="#sobre" data-lang="es">Sobre Nosotros</a>
+        <a href="#productos" data-lang="es">Productos</a>
+        <a href="#app" data-lang="es">Aplicación</a>
+        <a href="#premium" data-lang="es">Premium</a>
+        <a href="#contacto" data-lang="es">Contacto</a>
+
+        <a href="#inicio" data-lang="en" style="display:none">Home</a>
+        <a href="#sobre" data-lang="en" style="display:none">About</a>
+        <a href="#productos" data-lang="en" style="display:none">Products</a>
+        <a href="#app" data-lang="en" style="display:none">App</a>
+        <a href="#premium" data-lang="en" style="display:none">Premium</a>
+        <a href="#contacto" data-lang="en" style="display:none">Contact</a>
+      </nav>
+      <button id="langBtn" class="lang-toggle">ES / EN</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero section">
+      <div class="container hero-grid">
+        <div>
+          <h2 data-lang="es">Tecnología inteligente para el bienestar de tu mascota</h2>
+          <h2 data-lang="en" style="display:none">Smart technology for your pet's wellbeing</h2>
+          <p class="lead" data-lang="es">Collar inteligente + App móvil para monitorizar salud, actividad y sueño en tiempo real.</p>
+          <p class="lead" data-lang="en" style="display:none">Smart collar + Mobile App to monitor health, activity and sleep in real time.</p>
+          <div class="cta">
+            <a class="btn" href="#productos" data-lang="es">Descubre nuestros productos</a>
+            <a class="btn" href="#productos" data-lang="en" style="display:none">Discover products</a>
+          </div>
+        </div>
+        <div>
+          <div class="card">
+            <img src="images/collar-inteligente.png" alt="Collar inteligente" style="width:100%;border-radius:10px">
+            <p style="margin-top:12px;color:#2b6f59;font-weight:700" data-lang="es">Collar inteligente</p>
+            <p style="margin-top:6px;color:#566" data-lang="es">Monitorea actividad, sueño y hábitos.</p>
+
+            <p style="margin-top:12px;color:#2b6f59;font-weight:700;display:none" data-lang="en">Smart collar</p>
+            <p style="margin-top:6px;color:#566;display:none" data-lang="en">Tracks activity, sleep and habits.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="container">
+        <h3 data-lang="es">Sobre Nosotros</h3>
+        <h3 data-lang="en" style="display:none">About Us</h3>
+        <p data-lang="es">PetConnect nace para ayudar a dueños de mascotas a cuidar la salud de forma práctica y tecnológica. Nuestra misión: mejorar la vida de las mascotas mediante soluciones intuitivas y en tiempo real.</p>
+        <p data-lang="en" style="display:none">PetConnect was created to help pet owners care for their pets' health in a practical, technological way. Our mission: improve pets' lives through intuitive, real-time solutions.</p>
+      </div>
+    </section>
+
+    <section id="productos" class="section">
+      <div class="container">
+        <h3 data-lang="es">Productos y Servicios</h3>
+        <h3 data-lang="en" style="display:none">Products & Services</h3>
+        <div class="grid">
+          <div class="card">
+            <h4 data-lang="es">Collar inteligente</h4>
+            <h4 data-lang="en" style="display:none">Smart Collar</h4>
+            <p data-lang="es">Sensores IoT que registran actividad, sueño y envían datos a la app.</p>
+            <p data-lang="en" style="display:none">IoT sensors that log activity, sleep and send data to the app.</p>
+          </div>
+          <div class="card">
+            <h4 data-lang="es">Aplicación móvil</h4>
+            <h4 data-lang="en" style="display:none">Mobile App</h4>
+            <img src="images/app-movil.svg" alt="App" style="width:100%;margin-top:10px;border-radius:8px">
+            <p data-lang="es">Panel central para alertas, historial de vacunas y recomendaciones.</p>
+            <p data-lang="en" style="display:none">Central dashboard for alerts, vaccine history and recommendations.</p>
+          </div>
+          <div class="card">
+            <h4 data-lang="es">Suscripción Premium</h4>
+            <h4 data-lang="en" style="display:none">Premium Subscription</h4>
+            <img src="images/suscripcion-premium.svg" alt="Premium" style="width:100%;margin-top:10px;border-radius:8px">
+            <p data-lang="es">Funciones avanzadas, reportes detallados y soporte prioritario.</p>
+            <p data-lang="en" style="display:none">Advanced features, detailed reports and priority support.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="app" class="section">
+      <div class="container">
+        <h3 data-lang="es">Aplicación Móvil</h3>
+        <h3 data-lang="en" style="display:none">Mobile App</h3>
+        <p data-lang="es">Disponible para Android e iOS. Conexión via Bluetooth y redes móviles para datos en tiempo real.</p>
+        <p data-lang="en" style="display:none">Available for Android & iOS. Connects via Bluetooth and mobile networks for real-time data.</p>
+      </div>
+    </section>
+
+    <section id="premium" class="section">
+      <div class="container">
+        <h3 data-lang="es">Suscripción Premium</h3>
+        <h3 data-lang="en" style="display:none">Premium Subscription</h3>
+        <p data-lang="es">Seguimiento completo de salud, reportes avanzados y alertas personalizadas.</p>
+        <p data-lang="en" style="display:none">Full health tracking, advanced reports and personalized alerts.</p>
+      </div>
+    </section>
+
+    <section id="contacto" class="section">
+      <div class="container">
+        <h3 data-lang="es">Contacto</h3>
+        <h3 data-lang="en" style="display:none">Contact</h3>
+        <p data-lang="es">Escríbenos: <a href="mailto:contacto@petconnect.com">contacto@petconnect.com</a></p>
+        <p data-lang="en" style="display:none">Email us: <a href="mailto:contacto@petconnect.com">contacto@petconnect.com</a></p>
+
+        <div class="card contact-form" style="margin-top:12px">
+          <label data-lang="es">Nombre</label>
+          <label data-lang="en" style="display:none">Name</label>
+          <input type="text" placeholder="Tu nombre" />
+
+          <label data-lang="es">Mensaje</label>
+          <label data-lang="en" style="display:none">Message</label>
+          <textarea rows="5" placeholder="Escribe tu mensaje aquí (formulario decorativo)"></textarea>
+
+          <button class="btn" onclick="alert('Formulario decorativo — reemplaza con integración real si lo deseas')">Enviar</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+        <div>
+          <strong>PetConnect</strong><br>
+          <small>© 2025 PetConnect</small>
+        </div>
+        <div style="color:#e6fff7">Tecnología para el bienestar animal</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
